@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from './Menu';
+
 import Sdata from './Sdata';
 import Card from './Card';
 //import Netflix from './Netflix';
@@ -17,7 +18,7 @@ const Icard = () =>{
     return(
         <React.Fragment>
             <Menu />
-            <h1 className="heading_style">List of top 10 webseries in 2020</h1>
+            <h1 className="heading_style">Download Free Web series from moviesmazaonline</h1>
             <div className="card-wrapper">
                 {Sdata.map((val , index) => {
                     console.log(index)

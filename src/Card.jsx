@@ -6,7 +6,6 @@ const Card =(props) =>{
         <React.Fragment>
         <div className="cards">
             <div  className="card">
-                
                 <div className="card__info">
                     <Images imgsrc={props.imgsrc}/>
                     <span className="card__categary">{props.title}</span>
