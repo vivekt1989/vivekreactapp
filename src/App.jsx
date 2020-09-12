@@ -145,7 +145,7 @@
 // };
 // export default App;
 
-Reatc Hooks Method
+//Reatc Hooks Method
 import React from 'react';
 import Hooks from './Hooks';
 
