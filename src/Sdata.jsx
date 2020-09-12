@@ -5,7 +5,6 @@ const Sdata = [
         imgsrc:"https://i.ytimg.com/vi/JWbnEt3xuos/maxresdefault.jpg",
         title: "Original Web Series",
         links: "https://youtu.be/JWbnEt3xuos",
-        alts : "My Webseies 1",
     },
     {
         id:"2",
@@ -73,3 +72,4 @@ const Sdata = [
 
 ];
 export default Sdata;
+

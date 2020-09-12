@@ -1,8 +1,9 @@
 import React from 'react';
-import Menu from './Menu';
-
+import Header from './Header';
 import Sdata from './Sdata';
 import Card from './Card';
+import MenuItem from './MenuItem';
+import Logo from './img/mainlogo.png';
 //import Netflix from './Netflix';
 //import Amazon from './Amazon';
 //const Favseries ="Amazon";
@@ -17,7 +18,19 @@ import Card from './Card';
 const Icard = () =>{
     return(
         <React.Fragment>
-            <Menu />
+            <div className="header-menu">
+                <span>
+                    <img src={Logo} alt="Logo" title="Logo" />
+                </span>
+                {MenuItem.map((list) => {
+                    return(
+                        <Header
+                            hname={list.hname}
+                            hlinks={list.hname}
+                        />
+                    );
+                })}
+            </div>
             <h1 className="heading_style">Download Free Web series from moviesmazaonline</h1>
             <div className="card-wrapper">
                 {Sdata.map((val , index) => {
@@ -32,6 +45,9 @@ const Icard = () =>{
                         />
                     );
                 })}
+            </div>
+            <div className="footer-section">
+                Copyright 2020 moviesmazaonline. All Rights Reserved.
             </div>
         </React.Fragment>
     
