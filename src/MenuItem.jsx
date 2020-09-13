@@ -17,12 +17,17 @@ const MenuItem = [
     { 
         id:"4",
         hname:"New Web Series",
-        hlinks: "3",
+        hlinks: "4",
     },
     { 
         id:"5",
         hname:"New Movies",
-        hlinks: "3",
+        hlinks: "4",
+    },
+    { 
+        id:"6",
+        hname:"Login",
+        hlinks: "6",
     },
 ];
 

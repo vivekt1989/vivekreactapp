@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from './Header';
 import Sdata from './Sdata';
 import Card from './Card';
-import MenuItem from './MenuItem';
-import Logo from './img/mainlogo.png';
+import Headermenu from './Headermenu';
+import Footer from './Footer';
 //import Netflix from './Netflix';
 //import Amazon from './Amazon';
 //const Favseries ="Amazon";
@@ -18,37 +17,25 @@ import Logo from './img/mainlogo.png';
 const Icard = () =>{
     return(
         <React.Fragment>
-            <div className="header-menu">
-                <span>
-                    <img src={Logo} alt="Logo" title="Logo" />
-                </span>
-                {MenuItem.map((list) => {
-                    return(
-                        <Header
-                            hname={list.hname}
-                            hlinks={list.hname}
-                        />
-                    );
-                })}
-            </div>
+            <Headermenu />
             <h1 className="heading_style">Download Free Web series from moviesmazaonline</h1>
             <div className="card-wrapper">
                 {Sdata.map((val , index) => {
-                    console.log(index)
+                    //console.log(index)
                     return(
                         <Card
                             key={val.id}
                             imgsrc={val.imgsrc}
-                            title={val.title} 
+                            htitle={val.htitle} 
                             sname={val.sname}     
-                            links={val.links} 
+                            links={val.links}
+                            title ={val.sname}
+                            alt ={val.sname}
                         />
                     );
                 })}
             </div>
-            <div className="footer-section">
-                Copyright 2020 moviesmazaonline. All Rights Reserved.
-            </div>
+            <Footer />
         </React.Fragment>
     
     // <React.Fragment>
