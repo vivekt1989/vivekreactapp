@@ -139,9 +139,19 @@
 // import App from './App.jsx';
 // ReactDOM.render(<App /> ,document.getElementById('root'));
 // Top 5 Netflex Movies
+
+// My Website code 
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './css/style.css';
+// import Icard from './Icard';
+//     ReactDOM.render(<Icard />, document.getElementById('root')
+// );
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom";
 import './css/style.css';
-import Icard from './Icard';
-    ReactDOM.render(<Icard />, document.getElementById('root')
+import App from "./App.jsx";
+ReactDOM.render(
+<App /> , 
+    document.getElementById('root')
 );

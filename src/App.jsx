@@ -146,13 +146,24 @@
 // export default App;
 
 //Reatc Hooks Method
+// import React from 'react';
+// import Hooks from './Hooks';
+
+// const App = () =>{
+//     return (
+//         <Hooks />
+//     )
+// }
+
+// export default App;
+
+// Get Time
+
 import React from 'react';
-import Hooks from './Hooks';
-
-const App = () =>{
-    return (
-        <Hooks />
-    )
-}
-
-export default App;
+import Gettime from './Gettime';
+    const App = () =>{
+        return(
+            <Gettime />
+        )
+    }
+    export default App;
