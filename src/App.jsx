@@ -159,11 +159,22 @@
 
 // Get Time
 
+// import React from react';
+// import Gettime from './Gettime';
+//     const App = () =>{
+//         return(
+//             <Gettime />
+//         )
+//     }
+// export default App;
+
+// Event Handling Form
+
 import React from 'react';
-import Gettime from './Gettime';
+import BGcolor from './BGcolor';
     const App = () =>{
         return(
-            <Gettime />
+            <BGcolor />
         )
     }
-    export default App;
+export default App;
