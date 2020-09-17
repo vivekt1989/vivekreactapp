@@ -171,10 +171,10 @@
 // Event Handling Form
 
 import React from 'react';
-import BGcolor from './BGcolor';
+import Formfirst from './Formfirst';
     const App = () =>{
         return(
-            <BGcolor />
+            <Formfirst />
         )
     }
 export default App;
