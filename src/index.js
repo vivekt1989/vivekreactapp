@@ -147,8 +147,47 @@
 // import Icard from './Icard';
 //     ReactDOM.render(<Icard />, document.getElementById('root')
 // );
+
+// spread operator
+
+// const fullname = ['Vivek' , 'Tripathi'];
+
+// const biodata = [1, ...fullname, 26, 'male'];
+// console.log(fullname);
+// console.log(biodata);
+
+// const Firstname = {
+//     fname: 'Vivek',
+//     lname : 'Tripathi',
+//     age : 30,
+//     gendet : 'Male'
+
+// }
+
+// const biodata2 ={
+//     id:1,
+//     ...Firstname,
+// }
+
+// console.log(biodata2);
+// import React from 'react';
+// import ReactDOM from "react-dom";
+// import './css/style.css';
+// import App from "./App.jsx";
+// ReactDOM.render(<App /> , document.getElementById('root'));
+
+// New Website
+
 import React from 'react';
 import ReactDOM from "react-dom";
-import './css/style.css';
-import App from "./App.jsx";
-ReactDOM.render(<App /> , document.getElementById('root'));
+import Website from './Website';
+import "./css/index.css";
+import {BrowserRouter} from "react-router-dom";
+
+ReactDOM.render(
+    <React.Fragment>
+        <BrowserRouter>
+            <Website/> 
+        </BrowserRouter>
+    </React.Fragment>
+, document.getElementById("root"));

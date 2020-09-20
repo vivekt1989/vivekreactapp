@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const Formfirst = () =>{
     const [Nametype ,setName ] = useState("");
-    const [FullName , setfullName] = useState("");
     const [Lastname , SetLast] = useState("");
+    const [FullName , setfullName] = useState("");
     const [LastAdd , LastShow] = useState("");
     const Inputevent = (event) =>{
         console.log(event.target.value);
