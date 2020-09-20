@@ -1,6 +1,33 @@
 @import "font-roboto.less";
 @bodycolor:#e5e5e5;
 
+
 body{
     background-color: @bodycolor;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+    font-size:14px;
+    line-height: 24px;
+}
+.nav__bar{
+    .nav-item{
+        .nav-link{
+            font-size:16px;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            color:#000;
+            font-weight: 500;
+            letter-spacing: 1.2px;
+            &:hover{
+                color:#6b7afe
+            }
+        }
+    }
+}
+.navbar-brand{
+    border-bottom: none !important;
+}
+.active{
+    color:#6b7afe !important;
+    border-bottom: 1px solid #6b7afe;
 }
