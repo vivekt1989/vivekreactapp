@@ -1,8 +1,12 @@
 import React from "react";
+import Homeimg from "../src/img/newweb.jpg";
+import Common from "./Common";
 
 const Newwebseries = () =>{
     return(
-        <div>WelCome New webseries Page</div>
+       <React.Fragment>
+           <Common Name="New Web Series Download from" Imgsrc={Homeimg} Visit="/login" btnName="Download Now!!" />
+       </React.Fragment>
     )
 }
 

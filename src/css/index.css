@@ -331,10 +331,33 @@ body {
 .nav__bar .nav-item .nav-link:hover {
   color: #6b7afe;
 }
+.nav__bar .nav-item .nav-link.active {
+  color: #6b7afe !important;
+  border-bottom: 1px solid #6b7afe;
+}
 .navbar-brand {
   border-bottom: none !important;
 }
-.active {
-  color: #6b7afe !important;
-  border-bottom: 1px solid #6b7afe;
+.home-page {
+  padding: 90px 0;
+  background-color: #fff;
+}
+.home-page img {
+  max-width: 100%;
+}
+.home-page h1 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+.home-page h1 strong {
+  color: #6b7afe;
+  font-weight: 400;
+}
+.home-page p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #848d95;
+  margin-bottom: 30px;
 }
