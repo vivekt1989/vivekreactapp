@@ -13,11 +13,11 @@ const Handlingmultiform = () =>{
         // const value =(event.target.value);
         // const name =(event.target.name);
         const {value , name} = event.target;
-        SetFullname((dataStore) =>{
+        SetFullname((Formstatus) =>{
             //console.log(preValue);
             // Using Spread operator method
             return{
-                ...dataStore,
+                ...Formstatus,
                 [name] : value,
             }
 

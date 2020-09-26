@@ -593,3 +593,9 @@ button {
   font-size: 25px;
   border-radius: 3px;
 }
+.copy__right {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #efefef;
+}

@@ -23,6 +23,7 @@ const Website = () =>{
                 <Route exact path="/login" component = {Login}/>
                 <Redirect to ="/" />
             </Switch>
+            <div className="copy__right">Copyright 2020 Movie Maza online. All Rights Reserved.</div>
         </React.Fragment>
     )
 };
