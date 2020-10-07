@@ -177,7 +177,6 @@
 // ReactDOM.render(<App /> , document.getElementById('root'));
 
 // New Website Static
-<<<<<<< HEAD
 
 // import React from 'react';
 // import ReactDOM from "react-dom";
@@ -194,9 +193,6 @@
 // , document.getElementById("root"));
 
 // To Do List
-=======
->>>>>>> b8e9f127617e65a8f1a4587d023aeae5be6404d8
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App";

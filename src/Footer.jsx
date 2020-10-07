@@ -1,8 +1,8 @@
 import React from 'react';
-const Footer = () =>{
+const Footer = (props) =>{
     return(
         <div className="footer-section">
-            Copyright 2020 moviesmazaonline. All Rights Reserved.
+            {props.Copyright}
         </div>
     );
 }
