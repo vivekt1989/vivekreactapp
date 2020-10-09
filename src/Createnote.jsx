@@ -37,14 +37,14 @@ const Createnote = (props) =>{
                     type="text"
                     name="title"
                     value={note.title}
-                    placeholder="Title Here"
+                    placeholder="Write Title"
                     onChange={Inputevent} 
                     />):null}
                     
                     <textarea rows="" name="content" onClick={expandIt} value={note.content} column="" placeholder="Write a Note..." onChange={Inputevent}></textarea>
                     {expand? (
                     <Tooltip title="Add">
-                        <Button color="primary" onClick={Addevent}>
+                        <Button variant="contained" color="primary" onClick={Addevent}>
                             <AddIcon />
                         </Button>
                     </Tooltip>

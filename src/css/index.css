@@ -495,37 +495,80 @@ body {
   background-color: #fff;
   font-size: 14px;
   text-align: center;
+  padding-top: 30px;
+  margin-top: 50px;
 }
 .card__main {
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding: 15px 15px 50px;
   border-radius: 3px;
-  margin: 20px;
-  width: 200px;
+  margin: 20px auto;
+  width: 480px;
+  padding-bottom: 50px;
   position: relative;
   background-color: #fff;
 }
 .card__main input {
-  width: 100%;
+  width: 95%;
+  height: 45px;
   display: block;
   margin: 0 0 15px;
+  padding: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+}
+.card__main input:hover,
+.card__main input:focus {
+  border: 1px solid blue;
 }
 .card__main textarea {
-  width: 100%;
+  width: 95%;
   display: block;
+  resize: none;
+  border-radius: 3px;
+  padding: 10px;
+  height: 100px;
+  border: 1px solid #eee;
+}
+.card__main textarea:hover,
+.card__main textarea:focus {
+  border: 1px solid blue;
 }
 .card__main button {
   position: absolute;
-  bottom: -10px;
+  bottom: -30px;
   right: 15px;
+  border-radius: 50%;
+  height: 64px;
 }
 .note__wrapper {
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding: 15px;
   border-radius: 3px;
   margin: 20px;
-  width: 200px;
+  width: 28.4%;
   display: inline-block;
   position: relative;
   background-color: #fff;
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+.note__wrapper h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+.note__wrapper p {
+  font-size: 14px;
+  font-weight: 300;
+  height: 96px;
+}
+.note__wrapper button {
+  background-color: #f50057;
+  color: #fff;
+  border-radius: 50%;
+  height: 64px;
+  position: absolute;
+  bottom: -30px;
+  right: 15px;
 }
