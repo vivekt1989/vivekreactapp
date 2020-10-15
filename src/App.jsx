@@ -19,11 +19,11 @@
 // const youtuber ="Amit Badana";
 // const FavLang ="React Js";
 // function Myname() {
-//     let Name = 'Vivek'; 
+//     let Name = 'Vivek';
 //     return Name;
 // }
 // function Mynames() {
-//     let Names = 'Tripathi'; 
+//     let Names = 'Tripathi';
 //     return Names;
 // }
 
@@ -42,13 +42,12 @@
 //                 <li>Sub of Number {sub (40 , 23)}</li>
 //                 <li>Multi of Number {mult (40 , 23)}</li>
 //                 <li>Div of Number {div (40 , 23)}</li>
-                
+
 //             </ul>
 //         </React.Fragment>
 //     );
 // }
 // export default App;
-
 
 //Netflex top 10 Web series
 // import React from "react";
@@ -59,65 +58,65 @@
 //     <React.Fragment>
 //         <h1 className="heading_style">List of top 10 webseries in 2020</h1>
 //         <div className="card-wrapper">
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[0].imgsrc}
-//                 title={Sdata[0].title} 
-//                 sname={Sdata[0].sname}     
-//                 links={Sdata[0].links} 
+//                 title={Sdata[0].title}
+//                 sname={Sdata[0].sname}
+//                 links={Sdata[0].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[1].imgsrc}
-//                 title={Sdata[1].title} 
-//                 sname={Sdata[1].sname} 
-//                 links={Sdata[1].links} 
+//                 title={Sdata[1].title}
+//                 sname={Sdata[1].sname}
+//                 links={Sdata[1].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[2].imgsrc}
-//                 title={Sdata[2].title} 
-//                 sname={Sdata[2].sname} 
-//                 links={Sdata[2].links} 
+//                 title={Sdata[2].title}
+//                 sname={Sdata[2].sname}
+//                 links={Sdata[2].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[3].imgsrc}
-//                 title={Sdata[3].title} 
-//                 sname={Sdata[3].sname} 
-//                 links={Sdata[3].links} 
+//                 title={Sdata[3].title}
+//                 sname={Sdata[3].sname}
+//                 links={Sdata[3].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[4].imgsrc}
-//                 title={Sdata[4].title} 
-//                 sname={Sdata[4].sname} 
-//                 links={Sdata[4].links} 
+//                 title={Sdata[4].title}
+//                 sname={Sdata[4].sname}
+//                 links={Sdata[4].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[5].imgsrc}
-//                 title={Sdata[5].title} 
-//                 sname={Sdata[5].sname} 
-//                 links={Sdata[5].links} 
+//                 title={Sdata[5].title}
+//                 sname={Sdata[5].sname}
+//                 links={Sdata[5].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[6].imgsrc}
-//                 title={Sdata[6].title} 
-//                 sname={Sdata[6].sname} 
-//                 links={Sdata[6].links} 
+//                 title={Sdata[6].title}
+//                 sname={Sdata[6].sname}
+//                 links={Sdata[6].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[7].imgsrc}
-//                 title={Sdata[7].title} 
-//                 sname={Sdata[7].sname} 
-//                 links={Sdata[7].links} 
+//                 title={Sdata[7].title}
+//                 sname={Sdata[7].sname}
+//                 links={Sdata[7].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[8].imgsrc}
-//                 title={Sdata[8].title} 
-//                 sname={Sdata[8].sname} 
-//                 links={Sdata[8].links} 
+//                 title={Sdata[8].title}
+//                 sname={Sdata[8].sname}
+//                 links={Sdata[8].links}
 //             />
-//             <Card 
+//             <Card
 //                 imgsrc={Sdata[9].imgsrc}
-//                 title={Sdata[9].title} 
-//                 sname={Sdata[9].sname} 
-//                 links={Sdata[9].links} 
+//                 title={Sdata[9].title}
+//                 sname={Sdata[9].sname}
+//                 links={Sdata[9].links}
 //             />
 //         </div>
 //     </React.Fragment>
@@ -132,8 +131,8 @@
 // const App = () =>{
 //     return(
 //        <React.Fragment>
-//            <h1 className="heading"> 
-//                 Slot Welcome to <span style={{fontWeight:'bold'}}>Slot machine Game</span> 
+//            <h1 className="heading">
+//                 Slot Welcome to <span style={{fontWeight:'bold'}}>Slot machine Game</span>
 //            </h1>
 //            <div className="slot__innerwraper">
 //                 <Slotmaching x='Smile' y='Smile' z='Smile' />
@@ -190,15 +189,35 @@
 
 // export default App;
 
-import React from 'react';
+//KEEP NOTE PROJECT
+// import React from 'react';
 
-import Vskeep from './Vskeep';
+// import Vskeep from './Vskeep';
 
-const App = () =>{
-    return(
-        <Vskeep />
-    )
-}
+// const App = () =>{
+//     return(
+//         <Vskeep />
+//     )
+// }
 
- export default App;
+//  export default App;
 
+import React, { createContext } from "react";
+import CompA from "./CompA";
+const FName = createContext();
+const LName =createContext();
+const App = () => {
+  return (
+    <>
+      <FName.Provider value={"Vivek"}>
+        <LName.Provider value={"Tripathi"}>
+            <CompA />
+        </LName.Provider>
+        
+      </FName.Provider>
+    </>
+  );
+};
+
+export default App;  
+export { FName, LName };
