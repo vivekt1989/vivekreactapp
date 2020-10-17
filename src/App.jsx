@@ -201,23 +201,48 @@
 // }
 
 //  export default App;
-
-import React, { createContext } from "react";
-import CompA from "./CompA";
-const FName = createContext();
-const LName =createContext();
-const App = () => {
-  return (
-    <>
-      <FName.Provider value={"Vivek"}>
-        <LName.Provider value={"Tripathi"}>
-            <CompA />
-        </LName.Provider>
+//Context Code
+// import React, { createContext } from "react";
+// import CompA from "./CompA";
+// const FName = createContext();
+// const LName =createContext();
+// const App = () => {
+//   return (
+//     <>
+//       <FName.Provider value={"Vivek"}>
+//         <LName.Provider value={"Tripathi"}>
+//             <CompA />
+//         </LName.Provider>
         
-      </FName.Provider>
-    </>
-  );
-};
+//       </FName.Provider>
+//     </>
+//   );
+// };
 
-export default App;  
-export { FName, LName };
+// export default App;  
+// export { FName, LName };
+
+import React, { useEffect, useState } from 'react';
+
+const App = () =>{
+  const [Num , SetNum] = useState(0);
+  const [Nums, SetNums] =useState(0);
+  const NumInmt = ()=>{
+    SetNum(Num+1);
+  }
+  const NumInmt2 = ()=>{
+    SetNums(Nums+1);
+  }
+  useEffect(() =>{
+    alert("I Am Clicked");
+    console.log("I am clicker");
+  },[Num]);
+  return (
+    <React.Fragment>
+      <button onClick={NumInmt}>Click me {Num} </button> <br />
+      <button onClick={NumInmt2}>Click me {Nums} </button>
+    </React.Fragment>
+  )
+}
+
+export default App;
