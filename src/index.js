@@ -178,26 +178,26 @@
 
 // New Website Static
 
-// import React from 'react';
-// import ReactDOM from "react-dom";
-// import Website from './Website';
-// import "./css/index.css";
-// import {BrowserRouter} from "react-router-dom";
-
-// ReactDOM.render(
-//     <React.Fragment>
-//         <BrowserRouter>
-//             <Website/> 
-//         </BrowserRouter>
-//     </React.Fragment>
-// , document.getElementById("root"));
-
-// To Do List
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from "./App";
-import './css/index.css';
+import ReactDOM from "react-dom";
+import Website from './Website';
+import "./css/index.css";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-    <App /> , document.getElementById('root')
-)
+    <React.Fragment>
+        <BrowserRouter>
+            <Website/> 
+        </BrowserRouter>
+    </React.Fragment>
+, document.getElementById("root"));
+
+// // To Do List
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from "./App";
+// import './css/index.css';
+
+// ReactDOM.render(
+//     <App /> , document.getElementById('root')
+// )

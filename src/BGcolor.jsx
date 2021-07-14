@@ -4,7 +4,7 @@ const BGcolor = () =>{
     const [count , SetTime] = useState(0);
     console.log("Clicked");
     const btnClick = () =>{
-        SetTime(count +1);
+        SetTime(count +2);
     }
     return(
         <React.Fragment>
